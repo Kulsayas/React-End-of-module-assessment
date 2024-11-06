@@ -32,13 +32,13 @@ export default function Homepage() {
         <div className="w-[500px] flex justify-between font-semibold pt-4">
           <button
             onClick={changeUserTable}
-            className="bg-slate-300 p-6 rounded-xl drop-shadow-lg"
+            className="bg-slate-300 p-6 rounded-xl drop-shadow-lg hover:bg-slate-400"
           >
             User Home Sector
           </button>
           <button
             onClick={changeAdminTable}
-            className="bg-slate-300 p-6 rounded-xl drop-shadow-lg"
+            className="bg-slate-300 p-6 rounded-xl drop-shadow-lg hover:bg-slate-400"
           >
             Admin Home Sector
           </button>

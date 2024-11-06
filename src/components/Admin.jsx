@@ -37,7 +37,7 @@ export default function Admin({ tableUser, tableAdmin }) {
       {tableAdmin && (
         <>
           <div className="mt-20 mb-2 flex justify-start">
-            <p className="font-semibold text-xl ">Create User Here</p>
+            <p className="font-semibold text-xl">Create User Here</p>
           </div>
           <form onSubmit={handleSubmit} className="flex justify-center gap-6">
             <input
@@ -89,7 +89,7 @@ export default function Admin({ tableUser, tableAdmin }) {
                   <td className="text-center border-solid border-b-2 h-10 bg-slate-100">
                     <button
                       onClick={() => handleDelete(index)}
-                      className="text-red-600 cursor-pointer text-center"
+                      className="text-red-700 cursor-pointer text-center hover:bg-red-800"
                     >
                       Delete
                     </button>
